@@ -1,7 +1,9 @@
 # Личный проект «Девайс»
 
 * Студент: [Назира](https://up.htmlacademy.ru/htmlcss/25/user/1068949).
-* Наставник: [Евгений Алипкин](https://up.htmlacademy.ru/htmlcss/25/user/38158).
+
+* Наставник: [Евгений Алипкин](https://up.htmlacademy.ru/htmlcss/25/user/38158)
+
 
 ---
 
