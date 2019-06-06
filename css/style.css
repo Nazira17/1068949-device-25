@@ -1,6 +1,7 @@
+
 @font-face {
   font-family: 'Gilroy';
-  src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('Gilroyextrabold.woff2') format('woff2'), url('Gilroyextrabold.woff') format('woff'), url('Gilroyextrabold.ttf') format('truetype');
+  src: url("../fonts/gilroy/Gilroyextrabold.woff") format('woff'), url("../fonts/gilroy/Gilroyextrabold.woff2") format('woff2');
   font-weight: 800;
   font-style: normal;
 }
@@ -16,8 +17,6 @@ body {
   line-height: 24px;
   font-weight: 800;
   text-transform: uppercase;
-  width: 214px;
-  height: 12px;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 3.6px;
@@ -80,15 +79,15 @@ a {
 }
 
 
-.catalog-category img{
+.catalog-category {
+  display: inline-block;
   width: 160px;
   height: 160px;
   opacity: 0.5;
   background-color: #f0c52e;
-  background-position:50% 50%;
+  color: #000000;
   background-repeat: repeat;
 }
-
 
 
 .picture-slider-bottom {
