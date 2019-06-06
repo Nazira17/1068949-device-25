@@ -10,16 +10,27 @@
 body {
   margin: 0;
   padding: 0;
+
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
-  width: 1440px;
-  height: 2795px;
+  width: 214px;
+  height: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: #000000;
+
+  background-color: #ffffff;
 
 }
 
+a {
+  text-decoration: none;
+}
 
 .main-header-logo {
   width: 163px;
@@ -28,21 +39,54 @@ body {
 }
 
 
-a {
-  text-decoration: none;
-}
 
 .main-header {
   width: 1160px;
   opacity: 0.5;
+  color: #000000;
   background-color: #f0c52e;
 }
+
+
+.user-navigation,
+.site-navigation,
+.catalog-list-items,
+.slider-list,
+.slider-items,
+.items-types,
+.slider-list-button,
+.slider-services-list,
+.brands-list,
+.partners,
+.footer-contacts,
+.footer-social {
+  list-style: none;
+}
+
+
+.user-navigation a,
+.site-navigation a,
+.catalog-list-items a,
+.items-types a,
+.brands-list a,
+.footer-contacts a,
+.footer-social a {
+  color: #000000;
+}
+
+
+.user-navigation a {
+
+}
+
 
 .catalog-category img{
   width: 160px;
   height: 160px;
   opacity: 0.5;
   background-color: #f0c52e;
+  background-position:50% 50%;
+  background-repeat: repeat;
 }
 
 
