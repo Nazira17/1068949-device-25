@@ -43,7 +43,7 @@ a {
   width: 1160px;
   opacity: 0.5;
   color: #000000;
-  background-color: #f0c52e;
+  /*background-color: #f0c52e;*/
 }
 
 
@@ -78,6 +78,41 @@ a {
 
 }
 
+.login-link:hover,
+.login-link:focus,
+.login-compare:hover,
+.login-compare:focus,
+.login-cart:hover,
+.login-cart:focus {
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.login-link:active,
+.login-compare:active,
+.login-cart:active {
+  color: rgba(0, 0, 0, 0.3);
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog-list:hover,
+.catalog-list:focus {
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.catalog-list:active {
+  color: rgba(0, 0, 0, 0.3)
+}
 
 .catalog-category {
   display: inline-block;
