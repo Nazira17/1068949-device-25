@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('Gilroyextrabold.woff2') format('woff2'), url('Gilroyextrabold.woff') format('woff'), url('Gilroyextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 1440px;
+  height: 2795px;
+
+}
+
+
+.main-header-logo {
+  width: 163px;
+  height: 35px;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  width: 1160px;
+  opacity: 0.5;
+  background-color: #f0c52e;
+}
+
+.catalog-category img{
+  width: 160px;
+  height: 160px;
+  opacity: 0.5;
+  background-color: #f0c52e;
+}
+
+
+
+.picture-slider-bottom {
+  width: 1440px;
+  background-color: #e5e5e5;
+
+}
+
+.main-footer {
+  width: 1440px;
+  background-color: #464646;
+}
