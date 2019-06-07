@@ -1,9 +1,16 @@
 
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   src: url("../fonts/gilroy/Gilroyextrabold.woff") format('woff'), url("../fonts/gilroy/Gilroyextrabold.woff2") format('woff2');
   font-weight: 800;
   font-style: normal;
+}
+
+@font-face {
+  font-family:"OpenSans-Light";
+  src: url("../fonts/Open_Sans_Light/OpenSans-Light.woff") format("woff"), url("../fonts/Open_Sans_Light/OpenSans-Light.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
 }
 
 
@@ -22,7 +29,6 @@ body {
   letter-spacing: 3.6px;
   text-align: left;
   color: #000000;
-
   background-color: #ffffff;
 
 }
@@ -39,12 +45,12 @@ a {
 
 
 
-.main-header {
-  width: 1160px;
-  opacity: 0.5;
-  color: #000000;
-  /*background-color: #f0c52e;*/
-}
+/*.main-header {*/
+/*  width: 1160px;*/
+/*  opacity: 0.5;*/
+/*  color: #000000;*/
+/*  background-color: #f0c52e;*/
+/*}*/
 
 
 .user-navigation,
@@ -74,9 +80,256 @@ a {
 }
 
 
-.user-navigation a {
+.login-link {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  width: 42px;
+  height: 11px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+
+.login-compare {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  width: 69px;
+  height: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
 
 }
+
+.login-cart {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  width: 58px;
+  height: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+.catalog-list {
+  width: 181px;
+  height: 87px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+.slide h2 {
+  width: 394px;
+  height: 98px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+
+.slide p {
+  width: 479px;
+  height: 46px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color:#464646;
+}
+
+.slide-option {
+  width: 79px;
+  height: 31px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+
+.slaide-name-option {
+  width: 78px;
+  height: 11px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #464646;
+}
+.category-item {
+  width: 114px;
+  height: 39px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+
+.services-slide h2{
+  width: 217px;
+  height: 39px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+
+}
+
+.services-slide p {
+  width: 426px;
+  height: 75px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #464646;
+  text-transform: none;
+}
+
+
+.about-us h2 {
+  width: 131px;
+  height: 35px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+.about-us p {
+  width: 462px;
+  height: 315px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: none;
+  color:#464646;
+}
+
+.partners {
+  font-family:"Gilroy", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2.5;
+  color: #000000;
+  text-transform: none;
+}
+
+.button {
+  width: 215px;
+  height: 15px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #000000;
+}
+.contacts h2 {
+  width: 216px;
+  height: 34px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+
+}
+
+.contacts p {
+  width: 511px;
+  height: 46px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464646;
+}
+
 
 .login-link:hover,
 .login-link:focus,
@@ -87,6 +340,7 @@ a {
   color: rgba(0, 0, 0, 0.6);
 
 }
+
 
 .login-link:active,
 .login-compare:active,
@@ -114,24 +368,72 @@ a {
   color: rgba(0, 0, 0, 0.3)
 }
 
-.catalog-category {
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  opacity: 0.5;
-  background-color: #f0c52e;
-  color: #000000;
-  background-repeat: repeat;
-}
+/*.catalog-category {*/
+/*  display: inline-block;*/
+/*  width: 160px;*/
+/*  height: 160px;*/
+/*  opacity: 0.5;*/
+/*  background-color: #f0c52e;*/
+/*  color: #000000;*/
+/*  background-repeat: repeat;*/
+/*}*/
 
 
-.picture-slider-bottom {
+.services-slide {
   width: 1440px;
   background-color: #e5e5e5;
 
 }
 
+.footer-address {
+  width: 201px;
+  height: 15px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-phone {
+  width: 164px;
+  height: 13px;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+
+}
+/*.main-footer {*/
+/*  width: 1440px;*/
+/*  background-color: #464646;*/
+/*}*/
+
+
+.footer-contacts a {
+    width: 121px;
+    height: 15px;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    text-align: left;
+    color:#ffffff;
+  }
+
 .main-footer {
   width: 1440px;
-  background-color: #464646;
+  background-color:#464646;
 }
