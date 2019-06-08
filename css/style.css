@@ -43,15 +43,44 @@ a {
   object-fit: contain;
 }
 
+.main-header-logo:hover,
+.main-header-logo:focus {
+  width: 163px;
+  height: 35px;
+  object-fit: contain;
+  opacity: 0.6;
+}
+
+.main-header-logo:active {
+  width: 163px;
+  height: 35px;
+  object-fit: contain;
+  opacity: 0.3;
+
+}
+
+.button {
+  width: 85px;
+  height: 49px;
+  border: solid 2px #000000;
+
+}
 
 
-/*.main-header {*/
-/*  width: 1160px;*/
-/*  opacity: 0.5;*/
-/*  color: #000000;*/
-/*  background-color: #f0c52e;*/
-/*}*/
-
+.button-slide,
+.button {
+  width: 220px;
+  background-color: #f0c52e;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #000000;
+}
 
 .user-navigation,
 .site-navigation,
@@ -64,18 +93,26 @@ a {
 .brands-list,
 .partners,
 .footer-contacts,
-.footer-social {
+.footer-social,
+.breadcrumbs,
+.filter-list,
+.bluetooth-list,
+.options-sorting-list,
+.catalog-item-image,
+.catalog-list,
+.pagination-list,
+.user-footer-navigation {
   list-style: none;
 }
 
 
-.user-navigation a,
 .site-navigation a,
 .catalog-list-items a,
 .items-types a,
 .brands-list a,
 .footer-contacts a,
-.footer-social a {
+.footer-social a,
+.pagination-item a {
   color: #000000;
 }
 
@@ -114,8 +151,6 @@ a {
 
 .login-cart {
   font-family: "OpenSans-Light", Arial, sans-serif;
-  width: 58px;
-  height: 15px;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -128,8 +163,6 @@ a {
 }
 
 .catalog-list {
-  width: 181px;
-  height: 87px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -142,8 +175,6 @@ a {
   text-transform: none;
 }
 .slide h2 {
-  width: 394px;
-  height: 98px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 800;
@@ -158,8 +189,6 @@ a {
 
 
 .slide p {
-  width: 479px;
-  height: 46px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -172,8 +201,6 @@ a {
 }
 
 .slide-option {
-  width: 79px;
-  height: 31px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
@@ -188,8 +215,6 @@ a {
 
 
 .slaide-name-option {
-  width: 78px;
-  height: 11px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -201,8 +226,6 @@ a {
   color: #464646;
 }
 .category-item {
-  width: 114px;
-  height: 39px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -217,8 +240,6 @@ a {
 
 
 .services-slide h2{
-  width: 217px;
-  height: 39px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 800;
@@ -233,8 +254,6 @@ a {
 }
 
 .services-slide p {
-  width: 426px;
-  height: 75px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -249,8 +268,6 @@ a {
 
 
 .about-us h2 {
-  width: 131px;
-  height: 35px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 800;
@@ -264,8 +281,6 @@ a {
 }
 
 .about-us p {
-  width: 462px;
-  height: 315px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -288,8 +303,6 @@ a {
 }
 
 .button {
-  width: 215px;
-  height: 15px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -301,8 +314,6 @@ a {
   color: #000000;
 }
 .contacts h2 {
-  width: 216px;
-  height: 34px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 800;
@@ -317,8 +328,6 @@ a {
 }
 
 .contacts p {
-  width: 511px;
-  height: 46px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -368,16 +377,6 @@ a {
   color: rgba(0, 0, 0, 0.3)
 }
 
-/*.catalog-category {*/
-/*  display: inline-block;*/
-/*  width: 160px;*/
-/*  height: 160px;*/
-/*  opacity: 0.5;*/
-/*  background-color: #f0c52e;*/
-/*  color: #000000;*/
-/*  background-repeat: repeat;*/
-/*}*/
-
 
 .services-slide {
   width: 1440px;
@@ -386,8 +385,6 @@ a {
 }
 
 .footer-address {
-  width: 201px;
-  height: 15px;
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -400,8 +397,6 @@ a {
 }
 
 .footer-phone {
-  width: 164px;
-  height: 13px;
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -413,27 +408,302 @@ a {
   color: #ffffff;
 
 }
-/*.main-footer {*/
-/*  width: 1440px;*/
-/*  background-color: #464646;*/
-/*}*/
 
 
 .footer-contacts a {
-    width: 121px;
-    height: 15px;
-    font-family: "Gilroy", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: 3.6px;
-    text-align: left;
-    color:#ffffff;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: #ffffff;
   }
+
+.main-header {
+  width: 1160px;
+  background-color: rgba(240, 197, 46, 0.5);
+
+}
+
+.category-item img {
+  width: 160px;
+  /*opacity: 0.5;*/
+  background-color: rgba(240, 197, 46, 0.5);
+}
+
+
+.category-item img:hover,
+.category-item img:focus {
+  width: 160px;
+  background-color: #f0c52e;
+}
+
+
+.category-item img:active {
+  width: 97px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+
+
+.brand img:hover,
+.brand img:focus {
+  width: 260px;
+  object-fit: contain;
+}
+
+.brand {
+  width: 260px;
+  object-fit: contain;
+  opacity: 0.2;
+  background-blend-mode: color;
+  background-image: linear-gradient(to bottom, #000000, #000000);
+
+}
+
 
 .main-footer {
   width: 1440px;
   background-color:#464646;
+}
+
+.user-footer-navigation a {
+  opacity: 0.7;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+.user-name {
+  font-family:"OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+.login-quit {
+  opacity: 0.3;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: none;
+}
+
+
+.page-title {
+  font-family:  "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+
+}
+
+.breadcrumbs a {
+  opacity: 0.3;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: none;
+}
+
+.option-sorting {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color:rgba(0, 0, 0, 0.3);
+  text-transform: none;
+}
+
+.catalog-category {
+  font-family:  "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #000000;
+  text-transform: none;
+}
+
+
+.option-sorting:hover,
+.option-sorting:focus {
+  opacity: 0.6;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.option-sorting:active {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+}
+
+.pagination-item {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 3.2px;
+  text-align: left;
+  color: #000000;
+  width: 759px;
+  background-color: #ebebeb;
+
+}
+
+.user-name,
+.login-quit,
+.login-compare,
+.login-cart {
+  opacity: 0.7;
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.user-name:hover,
+.user-name:focus,
+.login-quit:hover,
+.login-quit:focus,
+.login-compare:hover,
+.login-compare:focus,
+.login-cart:hover,
+.login-cart:focus {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.user-name:active,
+.login-quit:active,
+.login-compare:active,
+.login-cart:active {
+  width: 42px;
+  height: 11px;
+  opacity: 0.3;
+  font-family:"OpenSans-Light", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3) ;
+
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  opacity: 0.6;
+  font-family:"Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-contacts a:active {
+  width: 117px;
+  height: 12px;
+  opacity: 0.3;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.ooter-bottom a:hover,
+.ooter-bottom a:focus {git
+  width: 27px;
+  height: 35px;
+  object-fit: contain;
+  opacity: 0.6;
+  background-color: #ffc600;
+
 }
