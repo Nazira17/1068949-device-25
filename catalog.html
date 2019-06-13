@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
+<!--  <link href="css/normalize.css" rel="stylesheet">-->
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -18,8 +17,8 @@
         <li>
           <form class="navigation-form" action="#" method="post">
             <input type="text" name="search" id="input-search" value="" placeholder="Поиск по сайту">
-            <label for="input-search">Поиск по сайту</label>
-            <button class="button" type="submit">Найти</button>
+<!--            <label for="input-search">Поиск по сайту</label>-->
+            <button class="button-search" type="submit">Найти</button>
           </form>
         </li>
         <li><a href="#" class="user-name">Валентин Петухов</a></li>
@@ -32,12 +31,12 @@
   <div class="header-bottom">
     <ul class="site-navigation">
       <li><a href="catalog.html">Каталог товаров</a>
-        <ul>
+        <ul class="catalog-list-items">
           <li><a href="#" class="catalog-list">Виртуальная реальность</a></li>
           <li><a href="#" class="catalog-list">Моноподы для селфи</a></li>
           <li><a href="#" class="catalog-list">Экшн-камеры</a></li>
           <li><a href="#" class="catalog-list">Фитнес-браслеты</a></li>
-          <li><a href="#" calss="catalog-list">Умные часы</a></li>
+          <li><a href="#" class="catalog-list">Умные часы</a></li>
           <li><a href="#" class="catalog-list">Квадрокоптеры</a></li>
         </ul>
       </li>
@@ -59,37 +58,37 @@
     <form class="filter" method="post" action="https://echo.htmlacademy.ru">
       <fieldset>
         <legend>Цвет</legend>
-        <ul>
+        <ul class="filter-list">
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
                    name="black" id="filter-black" checked>
-              <label for="filter-black">Черный</label>
+            <label for="filter-black">Черный</label>
           </li>
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white"
                    id="filter-white">
-              <label for="filter-white">Белый</label>
+            <label for="filter-white">Белый</label>
           </li>
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="blue"
                    id="filter-blue" checked>
-              <label for="filter-blue">Синий</label>
+            <label for="filter-blue">Синий</label>
           </li>
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="red"
                    id="filter-red">
-              <label for="filter-red">Красный</label>
+            <label for="filter-red">Красный</label>
           </li>
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pink"
                    id="filter-pink">
-              <label for="filter-pink">Розовый</label>
+            <label for="filter-pink">Розовый</label>
           </li>
         </ul>
       </fieldset>
       <fieldset>
         <legend>Bluetooth</legend>
-        <ul>
+        <ul class="bluetooth-list">
           <li class="filter-option">
             <input class="visually-hidden filter-input filter-input-radio" type="radio" name="answer"
                    value="yes" id="filter-yes">
@@ -106,6 +105,12 @@
     </form>
   </section>
   <section class="catalog">
+    <h2 class="sorting">Сортировка:</h2>
+    <ul class="options-sorting-list">
+      <li class="option-sorting">По цене</li>
+      <li class="option-sorting">По типу</li>
+      <li class="option-sorting">По популярности</li>
+    </ul>
     <h2 class="visually-hidden">Список моноподов для селфи</h2>
     <ul class="catalog-list">
       <li class="catalog-item">
@@ -185,19 +190,26 @@
         </div>
       </li>
     </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item"><a href="#">назад</a></li>
+      <li class="pagination-item"><a href="#">1</a></li>
+      <li class="pagination-item pagination-item-current"><a>2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">вперед</a></li>
+    </ul>
   </section>
 </main>
 <footer class="main-footer">
   <div class="footer-top">
     <nav class="main-navigation">
       <a class="main-header-logo">
-        <img src="img/logo-device.svg" width="163" height="35" alt="Логотип «Device»">
+        <img src="img/device.png" width="163" height="35" alt="Логотип «Device»">
       </a>
       <ul class="user-navigation">
-        <li><a href="#" class="user-name">Валентин Петухов</a></li>
-        <li><a href="#" class="login-quit">Выйти</a></li>
-        <li><a href="#" class="login-compare">Сравнить</a></li>
-        <li><a href="#" class="login-cart">Корзина</a></li>
+        <li><a href="#" class="user-name footer">Валентин Петухов</a></li>
+        <li><a href="#" class="login-quit footer">Выйти</a></li>
+        <li><a href="#" class="login-compare footer">Сравнить</a></li>
+        <li><a href="#" class="login-cart footer">Корзина</a></li>
       </ul>
     </nav>
   </div>
@@ -220,7 +232,7 @@
       <li><a class="social-button" href="#" aria-label="Инстаграм"><img src="img/instagram.svg"></a></li>
       <li><a class="social-button" href="#" aria-label="Твиттер"><img src="img/twitter.svg"></a></li>
     </ul>
-    <a href="https://htmlacademy.ru">HTML Academy<img src="img/logo-html.svg" width="27" height="35"></a>
+    <a href="https://htmlacademy.ru"aria-label="HTML Academy"><img src="img/logo-html.svg" width="27" height="35"></a>
   </div>
 </footer>
 </body>
