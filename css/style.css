@@ -36,7 +36,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-.items-categories {
+.categories {
   width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
@@ -94,13 +94,13 @@ body {
 }
 
 
-.site-catalog {
+.link-catalog {
   list-style: none;
   margin:0;
   padding:0;
 
 }
-.catalog-list-items {
+.catalog-list-link {
   display:none;
 
 }
@@ -116,16 +116,16 @@ body {
 
 
 
-.login-cart {
+.cart-link {
   margin-left: 65px;
 }
 
-.delivery {
+.delivery-link {
   margin-right: 38px;
 
 }
 
-.img-slide-one {
+.slider-list {
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -139,17 +139,17 @@ body {
   margin:0;
   padding:0;
 }
-.text-slide {
+.slide-information {
   width: 50%;
   margin-left: auto;
 }
 
-.text-slide p {
+.slide-information p {
   margin-bottom: 62px;
 }
 
 
-.items-types {
+.categories-list-items {
   display: flex;
   justify-content: space-between;
   padding:0;
@@ -181,7 +181,7 @@ body {
   margin-bottom: ;
 }
 
-.service-text{
+.service-information{
   display: flex;
   margin:0;
   padding:0;
@@ -226,7 +226,7 @@ body {
   margin: 0;
 }
 
-.contacts {
+.contacts  {
   width: 50%;
   padding: 0;
   margin: 0;
@@ -391,10 +391,10 @@ a {
 
 .user-navigation,
 .site-navigation,
-.catalog-list-items,
+.catalog-list-link,
 .slider-list,
-.slider-items,
-.items-types,
+.slider-nav-list,
+.categories-list-items,
 .slider-list-button,
 .slider-services-list,
 .brands-list,
@@ -414,8 +414,8 @@ a {
 
 
 .site-navigation a,
-.catalog-list-items a,
-.items-types a,
+.catalog-list-link a,
+.categories-list-items a,
 .brands-list a,
 .footer-contacts a,
 .footer-social a,
@@ -438,7 +438,7 @@ a {
 }
 
 
-.login-compare {
+.compare-link {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -452,7 +452,7 @@ a {
 
 }
 
-.login-cart {
+.cart-link {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -466,7 +466,7 @@ a {
 }
 
 
-.site-catalog a {
+.link-catalog a {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -479,7 +479,7 @@ a {
 }
 
 
-.catalog-list {
+.catalog-link {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -553,7 +553,7 @@ a {
   text-align: left;
   color: #464646;
 }
-.category-item {
+.categories-list-link {
   font-family: "Gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -670,18 +670,18 @@ a {
 
 .login-link:hover,
 .login-link:focus,
-.login-compare:hover,
-.login-compare:focus,
-.login-cart:hover,
-.login-cart:focus {
+.compare-link:hover,
+.compare-link:focus,
+.cart-link:hover,
+.cart-link:focus {
   color: rgba(0, 0, 0, 0.6);
 
 }
 
 
 .login-link:active,
-.login-compare:active,
-.login-cart:active {
+.compare-link:active,
+.cart-link:active {
   color: rgba(0, 0, 0, 0.3);
 
 }
@@ -696,12 +696,12 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.catalog-list:hover,
-.catalog-list:focus {
+.catalog-link:hover,
+.catalog-link:focus {
   color:rgba(0, 0, 0, 0.6);
 }
 
-.catalog-list:active {
+.catalog-link:active {
   color: rgba(0, 0, 0, 0.3)
 }
 
@@ -756,18 +756,18 @@ a {
 
 }
 
-/*.category-item img {*/
+/*.categories-list-link img {*/
 /*  background-color: rgba(240, 197, 46, 0.5);*/
 /*}*/
 
 
-.category-item img:hover,
-.category-item img:focus {
+.categories-list-link img:hover,
+.categories-list-link img:focus {
   background-color: #f0c52e;
 }
 
 
-.category-item img:active {
+.categories-list-link img:active {
   object-fit: contain;
   opacity: 0.3;
 }
@@ -929,8 +929,8 @@ a {
 
 .user-name.footer,
 .login-quit.footer,
-.login-compare.footer,
-.login-cart.footer,
+.compare-link.footer,
+.cart-link.footer,
 .login-link.footer {
   opacity: 0.7;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -951,10 +951,10 @@ a {
 .user-name.footer:focus,
 .login-quit.footer:hover,
 .login-quit.footer:focus,
-.login-compare.footer:hover,
-.login-compare.footer:focus,
-.login-cart.footer:hover,
-.login-cart.footer:focus {
+.compare-link.footer:hover,
+.compare-link.footer:focus,
+.cart-link.footer:hover,
+.cart-link.footer:focus {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -971,8 +971,8 @@ a {
 .login-link.footer:active,
 .user-name.footer:active,
 .login-quit.footer:active,
-.login-compare.footer:active,
-.login-cart.footer:active {
+.compare-link.footer:active,
+.cart-link.footer:active {
   opacity: 0.3;
   font-family:"OpenSans-Light", Arial, sans-serif;
   font-size: 15px;
